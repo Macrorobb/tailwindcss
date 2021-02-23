@@ -9,3 +9,11 @@ npm init -y
  -> 
 
 npm install -D tailwindcss postcss autoprefixer vite
+ -> modify package.json
+ ```
+    "scripts": {
+        "dev": "vite"
+    }
+ ```
+
+npx tailwindcss init -p
