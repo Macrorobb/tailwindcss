@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/tailwind.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <title>7 customizing you design system</title>
+</head>
+
+<body class="bg-gray-100 sm:bg-green-100 md:bg-green-200 lg:bg-green-300 xl:bg-green-400 2xl:bg-green-500">
+    <div class="bg-gray-100 grid lg:grid-cols-2 2xl:grid-cols-5">
+        <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2">
+            <div class="xl:max-w-xl">
+                <img class="h-10" src="/img/logo-brand.svg" alt="Workcation" />
+                <img class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden"
+                    src="/img/beach-work.jpg" alt="Woman workcationing on the beach" />
+                <h1 class="mt-6 text-2xl font-headlind tracking-tight font-semibold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">
+                    You can work from anywhere.
+                    <br class="hidden lg:inline" />
+                    <span class="text-brand">Take advantage of it.</span>
+                </h1>
+                <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+                    Workcationh helps you find work-friendly rentals in beautiful
+                    locations so you can enjoy some nice weather even when you're not no
+                    vacation.
+                </p>
+                <div class="mt-4 space-x-1 sm:mt-6">
+                    <a class="inline-block px-4 py-2 rounded-lg shadow-lg bg-brand hover:bg-brand-light sm:hover:text-3xl hover:-translate-y-0.5 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-brand focus:ring-opacity-50 active:bg-brand-dark transform transition text-white uppercase tracking-wider font-semibold text-sm sm:text-base"
+                        href="#">Book your escape</a>
+                </div>
+            </div>
+        </div>
+        <div class="hidden relative lg:block 2xl:col-span-3">
+            <img class="absolute inset-0 w-full h-full object-cover object-center" src="/img/beach-work.jpg"
+                alt="Woman workcationing on the beach" />
+        </div>
+    </div>
+    <div class="mt-6 grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
+        <div class="flex items-center rounded-lg bg-white shadow-lg overflow-hidden">
+            <img class="h-32 w-32 flex-shrink-0"
+                src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                alt="city" />
+            <div class="px-6 py-4">
+                <h3 class="text-lg font-semibold text-gray-800">Chicago</h3>
+                <p class="text-gray-600">$130 / night average</p>
+                <div class="mt-4">
+                    <a href="#" class="text-brand-dark hover:text-brand font-semibold text-sm">Explore 115
+                        properties</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
