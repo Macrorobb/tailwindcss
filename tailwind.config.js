@@ -15,6 +15,9 @@ module.exports = {
         // "brand-light": "#3fbaeb",
         // "brand-dark": "#0c87b8"
         fuchsia: colors.fuchsia,
+        rose: colors.rose,
+        cyan: colors.cyan,
+        teal: colors.teal
       },
       fontFamily: {
         headlind: "Poppins, sand-serif" // font-headline
